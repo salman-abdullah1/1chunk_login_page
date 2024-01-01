@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background-image: url('/images/coffee.jpg'); Replace with your background image */
+    background-color: rgb(103, 155, 252);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.logo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.main {
+    width: 30vw;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.main .text h1 {
+    margin-bottom: 20px;
+}
+
+.inp1 {
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 80%;
+    font-size: 1.2vw;
+    margin-top: 10px;
+    padding: 8px;
+    outline: none;
+    color: white;
+}
+
+button {
+    margin-top: 20px;
+    background-color: aqua;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 1.2vw;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+button:hover {
+    color: white;
+    border: 2px solid aqua;
+    background-color: black;
+}
+
+button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+button a{
+    text-decoration: none;
+}

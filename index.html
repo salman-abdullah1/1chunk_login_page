@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.6.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h3 class="welcome">WELCOME!</h3>
+
+        <!-- Logo Container -->
+        <div class="logo-container">
+            <img src="/images/IMG-20231120-WA0011-removebg-preview (1).png" alt="Logo" class="logo">
+        </div>
+
+        <!-- Icons Container -->
+        <div class="icons-container">
+            <!-- Admin Icon -->
+            <div class="icon">
+               <a href="/admin.html"> <i class=""></i> </a>
+            </div>
+
+            <!-- Teacher Icon -->
+            <div class="icon">
+                <a href="/Teacher_signInUp.html"> <i class=""></i> </a>
+            </div>
+
+            <!-- Parent Icon -->
+            <div class="icon">
+             <a href="/Parent_signInUp2.html"> <i class=""></i> </a>
+            </div>
+        </div>
+
+      <!-- Login Container -->
+<div class="input-container">
+    <div class="input-group">
+        <i class="ri-account-circle-line"></i>
+        <input class="input-field" type="text" placeholder="Username" id="username">
+    </div>
+
+    <div class="input-group">
+        <i class="ri-lock-line"></i>
+        <input class="input-field" type="password" placeholder="Password" id="userpass">
+    </div>
+</div>
+
+
+    <!-- Forgot Password Link -->
+    <p class="forgot"><a href="#">Forgot Password?</a></p>
+
+    <!-- Buttons Container -->
+    <div class="buttons-container">
+        <button class="btn" onclick="validate()" value="Login">Sign In</button>
+        <button class="btn"><a href="/admin.html"> Sign Up </a></button>
+    </div>
+</div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

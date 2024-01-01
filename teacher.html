@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teacher Registration</title>
+    <link rel="stylesheet" href="teacher.css">
+</head>
+<body>
+
+    <!-- Logo -->
+    <div class="logo">
+        <img src="/images/IMG-20231120-WA0011-removebg-preview (1).png" alt="Logo">
+    </div>
+
+    <div class="main">
+        <div class="text">
+            <h1>Teacher Registration</h1>
+            <!-- Teacher Registration Form -->
+            <form id="teacherRegistrationForm" action="#" method="post" onsubmit="return handleTeacherSignup()">
+                <input class="inp1" type="text" placeholder="Enter Code" id="teacherCode" required>
+                <br>
+                <input class="inp1" type="password" placeholder="Enter Password" id="teacherPassword" required>
+                <br>
+                <input class="inp1" type="password" placeholder="Re-enter Password" id="teacherRePassword" required>
+                <button type="submit"><a href="">Sign Up</a></button>
+            </form>
+        </div>
+    </div>
+
+    <script src="teacher.js"></script>
+</body>
+</html>
